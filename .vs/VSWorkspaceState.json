@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\lambda_functions_error_handling",
     "\\RBF"
   ],
-  "SelectedNode": "\\GettingCSVData",
+  "SelectedNode": "\\lambda_functions_error_handling\\lambda_functions.py",
   "PreviewInSolutionExplorer": false
 }
