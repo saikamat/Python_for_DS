@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\lambda_functions_error_handling",
-    "\\RBF",
-    "\\TF_Basics"
+    "\\RBF"
   ],
-  "SelectedNode": "\\TF_Basics\\script.py",
+  "SelectedNode": "\\lambda_functions_error_handling\\lambda_functions.py",
   "PreviewInSolutionExplorer": false
 }
