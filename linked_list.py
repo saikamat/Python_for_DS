@@ -31,7 +31,19 @@ class SingleLinkedList:
         NewNode.next = self.head_val
         self.head_val = NewNode
 
-
+# at the end.
+    def AtEnd(self, new_data):
+        NewNode = Node(new_data)    # create a node.
+        if self.head_val is None:   
+            # if the head node's value is None, then let the new node be 
+            # the head.
+            self.head_val = NewNode
+            return
+        laste = self.head_val
+        while(laste.next):
+            laste = laste.next
+        laste.next=NewNode
+                
 list1 = SingleLinkedList()
 list1.head_val = Node("Mon")
 e2 = Node("Tue")
@@ -54,4 +66,10 @@ list1.printList()
 list1.AtBegining("Sun")
 
 print("\nafter inserting at head...")
+list1.printList()
+
+# insert element at the end of the list.
+list1.AtEnd("Thu")
+
+print("\nafter inserting at tail...")
 list1.printList()
